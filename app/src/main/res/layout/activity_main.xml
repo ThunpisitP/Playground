@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="32dp"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.view.MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnCameraX"
@@ -30,6 +30,14 @@
         android:layout_height="wrap_content"
         android:layout_marginVertical="8dp"
         android:text="Date time converter"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:text="Get User"
         android:textAllCaps="false" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

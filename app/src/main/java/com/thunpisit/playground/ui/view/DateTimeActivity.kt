@@ -1,15 +1,10 @@
-package com.thunpisit.playground.ui
+package com.thunpisit.playground.ui.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.thunpisit.playground.databinding.ActivityDateTimeBinding
+import com.thunpisit.playground.ui.viewmodel.DateTimeViewModel
 import com.thunpisit.playground.utils.observe
-import java.text.SimpleDateFormat
-import java.time.Instant
-import java.time.LocalDateTime
-import java.time.ZoneId
-import java.time.format.DateTimeFormatter
-import java.util.*
 import javax.inject.Inject
 
 class DateTimeActivity : AppCompatActivity() {

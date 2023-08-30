@@ -20,6 +20,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Playground"
         tools:targetApi="31">
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+
         <service
             android:name="com.google.android.gms.metadata.ModuleDependencies"
             android:enabled="false"
@@ -35,7 +39,7 @@
         </service>
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,16 +48,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.PhotoPickerActivity"
+            android:name=".ui.view.PhotoPickerActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.DateTimeActivity"
+            android:name=".ui.view.DateTimeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.CameraXActivity"
+            android:name=".ui.view.CameraXActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.LoginActivity"
+            android:name=".ui.view.UserActivity"
             android:exported="false" />
     </application>
 

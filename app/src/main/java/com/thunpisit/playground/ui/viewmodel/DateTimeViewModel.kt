@@ -1,4 +1,4 @@
-package com.thunpisit.playground.ui
+package com.thunpisit.playground.ui.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

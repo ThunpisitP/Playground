@@ -1,4 +1,4 @@
-package com.thunpisit.playground.ui
+package com.thunpisit.playground.ui.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnDateTime.setOnClickListener {
             startActivity(Intent(this, DateTimeActivity::class.java))
+        }
+        binding.btnUser.setOnClickListener {
+            startActivity(Intent(this, UserActivity::class.java))
         }
     }
 

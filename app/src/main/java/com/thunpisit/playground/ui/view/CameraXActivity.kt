@@ -1,10 +1,8 @@
-package com.thunpisit.playground.ui
+package com.thunpisit.playground.ui.view
 
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.os.Environment
-import android.os.Handler
-import android.os.Looper
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -14,9 +12,6 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
 import com.thunpisit.playground.databinding.ActivityCameraXactivityBinding
-import java.io.File
-import java.text.SimpleDateFormat
-import java.util.*
 import java.util.concurrent.Executors
 
 

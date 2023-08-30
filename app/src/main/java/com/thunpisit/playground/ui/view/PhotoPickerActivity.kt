@@ -1,11 +1,10 @@
-package com.thunpisit.playground.ui
+package com.thunpisit.playground.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import com.bumptech.glide.Glide
-import com.thunpisit.playground.databinding.ActivityMainBinding
 import com.thunpisit.playground.databinding.ActivityPhotoPickerBinding
 
 class PhotoPickerActivity : AppCompatActivity() {
